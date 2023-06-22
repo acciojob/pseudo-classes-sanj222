@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+body{
+	background-color:skyblue;
+}
+li {
+  margin-right:300px;
+}
+li:nth-child(odd){
+background-color:white;
+color:black;
+}
+li:nth-child(even){
+	background-color:slategray;
+	color:black;
+}
+li:nth-child(3){
+	background-color:pink;
+	color:black;
+}
+li:first-child{
+	font-size:20px;
+}
+li:last-child{
+	font-size:20px;
+}
